@@ -1,0 +1,54 @@
+{
+
+	"films" : [
+		{
+			"name" : "Going in Style (2017 film)",
+			"casts": ["Morgan Freeman"],
+			"year": 1995
+		},
+
+		{
+			"name" : "Momentum (2015 film)",
+			"casts": ["Olga Kurylenko", "James Purefoy"],
+			"year": 1930
+		},
+		{
+			"name" : "Lucy (2014 film)",
+			"casts": ["Morgan Freeman"] ,
+			"year": 1996
+		}
+
+	],
+	"actors" : [
+		{
+			"name" : "Morgan Freeman",
+			"age" : 74
+		},
+		{	"name" : "Olga Kurylenko",
+			"age" : 40
+		},
+		{	"name" : "James Purefoy",
+			"age" :  40
+		}
+	],
+
+	"values" : [
+		{
+			"connections" : ["Going in Style (2017 film)" , "Morgan Freeman"] ,
+			"value" : 100000
+		},
+		{
+			"connections" : ["Momentum (2015 film)" , "James Purefoy"] ,
+			"value" : 200000
+		},
+		{
+			"connections" : ["Momentum (2015 film)" , "Olga Kurylenko"] ,
+			"value" : 10000
+		},
+		{
+			"connections" : ["Lucy (2014 film)" , "Morgan Freeman"] ,
+			"value" : 10000
+		}
+	]
+
+}
